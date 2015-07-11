@@ -1,46 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dd42bfb-2f80-48e9-973f-5bfdf99a1489" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/HRdemo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\and-btn.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\apple-btn.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\code.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\code2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\four-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\img-1.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\img-2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\img-3.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\img-4.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\la-logo2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\oa_apk.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\oa_apple.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\pc-1.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\pc-2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\pc-3.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\pc-4.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\pc-5.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\pc_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\pc_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\pc_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\qrcode.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\slogan-1.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\slogan-2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\slogan-3.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\slogan-4.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\three-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\two-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\video.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\img\wall_paper.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\work\GitHub\HRdemo\login.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/appstyle.css" afterPath="$PROJECT_DIR$/css/appstyle.css" />
-    </list>
+    <list default="true" id="5dd42bfb-2f80-48e9-973f-5bfdf99a1489" name="Default" comment="" />
     <ignored path="HRdemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />

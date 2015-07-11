@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>产品帮助</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="js/show.js"></script>
+    <script type="text/javascript" src="js/imgauto.js"></script>
+</head>
+<body>
+<!--header begin-->
+<div class="header">
+    <div class="headerInner clearfix">
+        <a href="#" class="block floatleft"><img src="img/la-logo.png"/></a>
+        <ul class="nav font14 floatright">
+            <li><a href="pc_version.html">电脑版</a></li>
+            <li><a href="La.html">移动版</a></li>
+            <li class="current"><a href="#">产品帮助</a></li>
+            <li><a href="updatelog.html">更新日志</a></li>
+            <li class="contact"><a href="javascript:;">联系我们</a></li>
+            <li><a href="" class="regist">注册</a></li>
+            <li><a href="" class="login">登录</a></li>
+        </ul>
+    </div>
+</div>
+<!--header over-->
+<div class="content main" style="background:#dfe0e0;">
+    <div class="help">
+        <p class="help_title font25">说明文档</p>
+        <div class="help_title font14">
+            <a href="javascript:;"  target="_blank" class="block color-3 alignright clearfix" dir="http://la-public.b0.upaiyun.com/document/oa/md_oa_guide_forAdmin.pdf">
+                <span class="floatleft"><img src="img/doc.png"><em>明道OA使用说明书（管理员版本）V1.6</em></span>
+                <span class="download_btn">查 看</span>
+            </a>
+        </div>
+        <div class="help_title font14">
+            <a href="javascript:;"  target="_blank" class="block color-3 alignright clearfix" dir="http://la-public.b0.upaiyun.com/document/oa/md_oa_guide_for_General.pdf">
+                <span class="floatleft"><img src="img/doc.png"><em>明道OA使用说明书（用户版本）V1.0</em></span>
+                <span class="download_btn">查 看</span>
+            </a>
+        </div>
+        <p class="help_title font25 mart45">教学视频</p>
+        <div class="mart30">
+            <div class="video aligncenter">
+                <a href="http://club.mingdao.com/thread-2082-1-1.html" target="_blank"><img src="img/video.jpg"></a>
+                <p class="p-top5">明道OA使用培训视频（用户版本）V1.0</p>
+            </div>
+            <div class="video aligncenter">
+                <a href="http://club.mingdao.com/thread-2083-1-1.html" target="_blank"><img src="img/video.jpg"></a>
+                <p class="p-top5">明道OA使用培训视频（管理员版本）V1.0</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mask"></div>
+<!--文件预览begin-->
+<div class="doc_preview" style="display: ">
+    <div class="header">
+        <a href="javascript:;" class="off"><i class="icon-close font20 color-white"></i></a>
+        <div class="doc_btn_item clearfix">
+            <span class="floatleft"></span>
+            <!--<a href="javascript:;" class="floatright"><i class="font16 icon-cloud-download2" style="vertical-align: -3px;"></i>&nbsp;&nbsp;下载该文件</a>-->
+        </div>
+    </div>
+    <!--左侧文件区域begin-->
+    <div class="doc_view">
+        <iframe allowtransparency="true" allowtransparency="true" src="" width="100%" height="100%" frameborder="0" scrolling="no" id="platform-office-iframe"></iframe>
+    </div>
+    <!--左侧文件区域over-->
+</div>
+<!--文件预览over-->
+<!--footer begin-->
+<div class="footer alignright">
+    <span>上海万企明道软件有限公司</span>
+    <span><img src="img/phone.png">400-021-6464</span>
+    <span><img src="img/mail.png">feedback@mingdao.com</span>
+    <span class="last">
+        <a href="#" class="qq"></a>
+        <a href="#" class="wx code wx">
+            <img src="img/code2.png" class="code_img">
+        </a>
+        <a href="http://weibo.com/mingdaowb?topnav=1&wvr=5&topsug=1" class="sina" target="_blank"></a>
+    </span>
+</div>
+<!--footer over-->
+<script type="text/javascript">
+    $(function(){
+        $('.help_title a').click(function(){
+            var dir = $(this).attr('dir');
+            var $doc_preview = $('.doc_preview');
+            var $help_title = $(this).find('em').text();
+            $('.doc_btn_item span').text($help_title);
+            var owaURL='https://docview.mingdao.com/op/view.aspx?src='+dir;
+            owaURL=encodeURI(owaURL);
+            $doc_preview.show();
+//            $('#originalBtn').hide().attr('href','javascript:;');
+            var iframe = document.getElementById("platform-office-iframe");
+            $(iframe).show();
+            $('#fileDownloadBtn').show().off('click').on('click',function(){
+                $(this).attr('href',dir);
+            });
+            iframe.src = owaURL;
+            if (iframe.attachEvent) {
+                iframe.attachEvent("onload", function () {
+                    window.setTimeout(function(){
+                        $doc_preview.close();
+                    },1000);
+                });
+            } else {
+                iframe.onload = function () {
+                    window.setTimeout(function(){
+                        $doc_preview.close();
+                    },1000);
+                };
+            }
+        });
+        $('.off').click(function(){
+            $(this).parents('.doc_preview').fadeOut();
+        });
+    });
+</script>
+</body>
+</html>

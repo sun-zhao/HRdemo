@@ -49,7 +49,7 @@ body{overflow-y:auto;min-width:1000px;}
 .login_box,.choose_net{width:300px;margin:0 auto;height:330px;position: fixed;top:50%;left:50%;margin:-170px 0 0 -190px;padding:20px 40px;background:#fff;box-shadow:0 0 3px #000;}
 .login_box{width:340px;height:290px;padding:20px;z-index:100;}
 .loginIn{border:1px solid #ddd;}
-.login_box label input{vertical-align:-3px;}
+.login_box label input{vertical-align:middle;}
 .Int{margin:0 10px;height:49px;position: relative;border-bottom:1px solid #ddd;}
 .Int .error_txt{display:block;width:100%;height:45px;line-height:45px;position: absolute;right:0;top:0;text-align: right;font-size: 13px;display: none;padding-right:10px;}
 .Int input{height:49px;line-height:49px;width: 100%;font-size: 14px;text-indent:10px;border:0;outline: 0;color:#888;}
@@ -87,7 +87,7 @@ body{overflow-y:auto;min-width:1000px;}
 .message.message_waring{background: url("../img/mesbg_waring.png") no-repeat;}
 .loading{position:absolute;width:160px;padding:10px 0;top:50%;left:50%;margin:-50px 0 0 -80px;z-index:202;color:#fff;background:url("../img/mask40.png") repeat;border-radius:3px;}
 .loading img{width:35px;height:35px;margin-bottom:8px;}
-.pop{width:410px;height:320px;padding:10px 40px;position:fixed;background:#fff;top:50%;left:50%;margin:-220px 0 0 -245px;z-index:100;border-radius:4px;color:#666;font-size:14px;}
+.pop{width:410px;height:320px;padding:10px 40px;position:fixed;background:#fff;top:50%;left:50%;margin:-160px 0 0 -245px;z-index:100;border-radius:4px;color:#666;font-size:14px;}
 .pop p{line-height:40px;}
 .pop p.font20{line-height:80px;border-bottom:1px solid #aaa;}
 .pop p a{height:35px;line-height:35px;}

@@ -78,7 +78,7 @@ body{overflow-y:auto;min-width:1000px;}
 .video{font-size: 14px;display: inline-block;margin:0 10px;width:30%;max-width:300px;overflow: hidden;}
 .video img{width:100%;}
 .video:hover img{opacity:0.9;transition:0.3s;}
-.message_box{width:320px;height:60px;position:fixed;top:50%;left:50%;margin:-30px 0 0 -160px;z-index:99;}
+.message_box{width:320px;height:60px;position:fixed;top:50%;left:50%;margin:-30px 0 0 -160px;z-index:999;}
 .message{position:absolute;top:0;left:0;width:320px;height:60px;line-height:60px;background: url("../img/mesbg_2.png") no-repeat;word-break: break-all;word-wrap: break-word;}
 .message.message_error{background: url("../img/mesbg_error2.png") no-repeat;}
 .message i{width:32px;height:32px;border:1px solid #fff;border-radius:50%;padding:4px;margin:0 10px;}

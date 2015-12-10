@@ -5,7 +5,7 @@ body{overflow-y:auto;min-width:1000px;}
 .nav li{float: left;}
 .nav li a{display: block;height:54px;line-height:54px;color:#fff;padding:0 20px;}
 .nav li a:hover,.nav li.current a{color:#ef901b;border-bottom: 6px solid #ef901b;}
-.btn{display: inline-block;width:100px;height:28px;line-height:28px;margin:17px 20px 0 0;background:#2d8eed;border-radius:2px;color: #fff;text-align: center;}
+.btn{display: inline-block;width:100px;height:28px;line-height:28px;margin:17px 20px 0 0;background:#2d8eed;border-radius:2px;color: #fff;text-align: center;font-family:"黑体";}
 .login{background: #f0901e;}
 .btn:hover{opacity:0.9;transition:0.2s;}
 .dot_list{width:10px;height:100px;position:fixed;top:50%;margin-top:-50px;right:20px;z-index:50;}

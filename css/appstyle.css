@@ -47,7 +47,7 @@ body{overflow-y:auto;min-width:1000px;}
 .slogan{width:30%;position: absolute;left:50%;margin-left:-15%;z-index:20;top:25%;}
 .slogan p img{width:60%;}
 .slogan p .btn{width:40%;height:40px;line-height:40px;margin:0 10px;margin-top:20%;}
-.login_box,.choose_net{width:300px;margin:0 auto;height:330px;position: fixed;top:50%;left:50%;margin:-170px 0 0 -190px;padding:20px 40px;background:#fff;box-shadow:0 0 3px #000;}
+.login_box,.choose_net{width:300px;margin:0 auto;height:330px;position: absolute;top:50%;left:50%;margin:-170px 0 0 -190px;padding:20px 40px;background:#fff;box-shadow:0 0 3px #000;}
 .login_box{width:340px;height:350px;padding:20px;z-index:100;}
 .loginIn{border:1px solid #ddd;}
 .login_box label input{vertical-align:middle;}
@@ -64,7 +64,8 @@ body{overflow-y:auto;min-width:1000px;}
 .login_qq{border-color:#4798be;background:#4ea7d1;}
 .login_qq img{margin-right:30px;margin-left: -30px;}
 .login_quit{background:#df4848;border-color:#48c073;}
-.choose_net{position: absolute;padding:20px;width:340px;height:210px;z-index:100;margin-top:-120px;background: #fff;border-radius:3px;}
+.choose_net{position: absolute;width:auto;height:auto;z-index:100;box-shadow: none;top:150px;margin:0;left:20px;right:20px;bottom:10px;padding: 0;}
+.choose_net .jscroll{width:340px;margin:0;}
 .choose_net p{border-bottom:1px solid #aaa;line-height:30px;}
 .choose_net li{border-bottom: 1px solid #aeaeae;margin:0 10px 5px 10px;}
 .choose_net li a{display:block;height:35px;line-height:35px;color:#333;font-size:13px;}

@@ -33,9 +33,6 @@ $(function(){
         }
         resizeimg();
     },200);
-    $(window).resize(function(){
-        resizeimg();
-    });
     window.onresize=function(){
         location.reload();
     };

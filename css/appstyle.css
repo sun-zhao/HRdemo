@@ -70,7 +70,8 @@ body{overflow-y:auto;min-width:1000px;}
 .choose_net li{border-bottom: 1px solid #aeaeae;margin:0 10px 5px 10px;}
 .choose_net li a{display:block;height:35px;line-height:35px;color:#333;font-size:13px;}
 .choose_net li a:hover{color:#0063bd;}
-.login_other{height:50px;line-height:50px;background: #f5f5f5;position: absolute;left:0;right:0;bottom:0;
+.login_other{height:50px;line-height:50px;background: #f5f5f5;position: absolute;left:0;right:0;bottom:0;}
+.login_other img{width:35px;}
 .off{position: absolute;padding:5px;right:0px;top:0;}
 .help{width:60%;margin: 0 auto;padding-top:50px;min-width:900px;padding-bottom:150px;}
 .help .help_title{border-bottom:1px solid #bdbdbd;min-height:60px;line-height:60px;}

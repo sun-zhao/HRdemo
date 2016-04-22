@@ -22,7 +22,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .strong{font-weight:bold;}
 .floatleft{float:left;}
 .floatright{float:right;}
-.aligncenter{text-align:center;}
+.aligncenter{text-align:center!important;}
 .alignright{text-align:right;}
 .alignleft{text-align:left;}
 .block{display:block;}
